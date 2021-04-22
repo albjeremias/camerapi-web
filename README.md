@@ -23,4 +23,5 @@ You can open issues for bugs you've found or features you think are missing. You
 
 
 ## Example image
-![capture example of an image](capture_example.jpg)
+![capture example of an image](assets/capture_example.jpg)
+![hardware setup](assets/hardware.jpeg)
