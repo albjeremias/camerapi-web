@@ -10,4 +10,5 @@ RUN git clone https://github.com/RPi-Distro/pi-gen.git
 
 RUN cd pi-gen && echo "IMG_NAME='Raspbian - cameraPI web'" > config && touch ./stage3/SKIP ./stage4/SKIP ./stage5/SKIP && touch ./stage4/SKIP_IMAGES ./stage5/SKIP_IMAGES
 
+RUN ls /pi-gen/work/
 RUN cd pi-gen && ./build.sh
