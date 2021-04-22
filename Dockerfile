@@ -4,7 +4,7 @@ ENV DEBIAN_FRONTEND noninteractive
 
 RUN apt update
 RUN apt -y install coreutils quilt parted qemu-user-static debootstrap zerofree zip \ 
-dosfstools bsdtar libcap2-bin grep rsync xz-utils file git curl bc git sudo docker
+dosfstools bsdtar libcap2-bin grep rsync xz-utils file git curl bc git sudo docker xxd kmod qemu-utils kpartx
 
 RUN git clone https://github.com/pmgou/pi-gen.git
 
