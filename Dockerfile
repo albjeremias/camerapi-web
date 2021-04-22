@@ -8,4 +8,5 @@ dosfstools bsdtar libcap2-bin grep rsync xz-utils file git curl bc git
 
 RUN git clone https://github.com/RPi-Distro/pi-gen.git
 
-RUN ./build-docker.sh
+
+RUN cd pi-gen && ./build-docker.sh
