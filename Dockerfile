@@ -13,3 +13,5 @@ RUN cd pi-gen && echo "IMG_NAME=Raspbian-cameraPIweb" >> config && touch ./stage
 RUN cd pi-gen && ./build.sh
 
 RUN ls && ls pi-gen/
+
+RUN date
