@@ -4,9 +4,10 @@ cameraPi web, is a free, open-source web application for the raspberry to be abl
 
 ## Installation
  `$ git clone https://gitlab.com/pgouveia/camerapi-web.git`
+
  `$ ./start.sh`
 
-probably you'll need to install some packages, which we are not including here.
+probably you'll need to install some missing packages.
 
 ## Contributing
 
