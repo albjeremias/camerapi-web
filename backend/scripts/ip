@@ -1,0 +1,9 @@
+#!/bin/bash
+IPADDR=`ifconfig wlan0 | grep netmask | cut -f10 -d" "`
+MACADDR=`ifconfig wlan0 | grep ether | cut -d " " -f10`
+
+echo "IP: $IPADDR"
+echo "MAC: $MACADDR"
+echo " user: pi password: raspberry port 22"
+echo "stream: rtsp://$IPADDR:8554/stream"
+read -p "press enter"

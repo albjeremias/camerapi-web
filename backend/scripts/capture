@@ -1,0 +1,4 @@
+#!/bin/bash
+data=`date`
+filename="capture_$data.jpg"
+raspistill -o "/home/pi/micro_oficinas/capturePI-web/captures/$filename"
