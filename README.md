@@ -2,6 +2,12 @@ cameraPi web
 ========
 cameraPi web, is a free, open-source web application for the raspberry to be able to capture high resolution still images from a camera and to stream video, remotely or locally using a web browser.
 
+## releases
+
+* [last release v0.3](https://gitlab.com/pgouveia/camerapi-web/-/tags/0.3)
+
+* [all releases](https://gitlab.com/pgouveia/camerapi-web/-/tags/)
+
 ## Installation
  `$ git clone https://gitlab.com/pgouveia/camerapi-web.git`
 
