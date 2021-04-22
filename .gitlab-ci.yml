@@ -10,6 +10,7 @@ ci_script:
     - apk add --update wget bash && rm -rf /var/cache/apk/*
     - ls -larth && pwd
     - echo "IMG_NAME='camera-pi-web'" > config
+    - mkdir stage3 stage4
     - touch ./stage3/SKIP ./stage4/SKIP
     - rm stage4/EXPORT*
     - bash build-docker.sh
