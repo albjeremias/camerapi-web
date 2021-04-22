@@ -13,3 +13,7 @@ probably you'll need to install some packages, which we are not including here.
 cameraPi web is **free, open-source software** licensed under **AGPLv3**.
 
 You can open issues for bugs you've found or features you think are missing. You can also submit merge requests to this repository.
+
+
+## Example image
+![capture example of an image](capture_example.jpg)
