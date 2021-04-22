@@ -12,6 +12,5 @@ ci_script:
     - echo "IMG_NAME='camera-pi-web'" > config
     - mkdir stage3 stage4
     - touch ./stage3/SKIP ./stage4/SKIP
-    - rm stage4/EXPORT*
     - bash build-docker.sh
     - ls -larth deploy/
